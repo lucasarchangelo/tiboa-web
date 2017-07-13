@@ -1,4 +1,4 @@
-package repositories
+package repository
 
 import entity.Summoner
 import enums.FarmEnum

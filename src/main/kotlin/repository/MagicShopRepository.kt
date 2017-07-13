@@ -1,4 +1,4 @@
-package repositories
+package repository
 
 import entity.Magic
 import org.springframework.data.jpa.repository.JpaRepository

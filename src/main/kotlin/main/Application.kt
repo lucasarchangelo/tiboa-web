@@ -14,16 +14,16 @@ import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.autoconfigure.domain.EntityScan
 import org.springframework.context.annotation.Bean
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories
-import repositories.EquipShopRepository
-import repositories.PlayerRepository
-import repositories.SummonerRepository
+import repository.EquipShopRepository
+import repository.PlayerRepository
+import repository.SummonerRepository
 import java.util.*
 
 /**
  * Created by kritiuns on 09/07/17.
  */
 @SpringBootApplication
-@EnableJpaRepositories("repositories")
+@EnableJpaRepositories("repository")
 @EntityScan("entity")
 open class Application{
 

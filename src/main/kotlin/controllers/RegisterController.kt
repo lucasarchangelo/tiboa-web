@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestBody
 import org.springframework.web.bind.annotation.RequestMapping
 import org.springframework.web.bind.annotation.RequestMethod
 import org.springframework.web.bind.annotation.RestController
-import repositories.PlayerRepository
+import repository.PlayerRepository
 
 /**
  * Created by kritiuns on 09/07/17.
